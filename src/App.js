@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { ConfigureStore } from './redux/configureStore';
 import './App.css';
-import CampsiteInfo from './components/CampsiteInfoComponent';
+
 
 const store = ConfigureStore();
 
